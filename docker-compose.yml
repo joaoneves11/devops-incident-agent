@@ -1,0 +1,22 @@
+services:
+  mcpserver:
+    build: ./MCPServer
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./MCPServer/data:/app/data
+    env_file:
+      - .env
+
+  app:
+    build: ./App
+    ports:
+      - "8080:8080"
+    environment:
+      MCP_SERVER_URL: http://mcpserver:8000
+    volumes:
+      - ./app/docs:/app/docs
+    env_file:
+      - .env
+    depends_on:
+      - mcpserver

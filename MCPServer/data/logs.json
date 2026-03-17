@@ -1,0 +1,15 @@
+[
+  {"ts": "2025-03-15T10:05:00Z", "level": "ERROR", "service": "payments-api", "error_type": "InternalServerError", "msg": "Payment gateway timeout", "trace_id": "pay-101"},
+  {"ts": "2025-03-15T10:04:58Z", "level": "ERROR", "service": "payments-api", "error_type": "InternalServerError", "msg": "Payment gateway timeout", "trace_id": "pay-100"},
+  {"ts": "2025-03-15T10:04:55Z", "level": "ERROR", "service": "payments-api", "error_type": "DatabaseTimeout", "msg": "DB connection pool exhausted", "trace_id": "pay-99"},
+  {"ts": "2025-03-15T10:04:50Z", "level": "ERROR", "service": "payments-api", "error_type": "InternalServerError", "msg": "NullPointerException in processPayment", "trace_id": "pay-98"},
+  {"ts": "2025-03-15T10:04:45Z", "level": "ERROR", "service": "orders-api", "error_type": "DatabaseTimeout", "msg": "Query timeout after 30s", "trace_id": "ord-201"},
+  {"ts": "2025-03-15T10:04:40Z", "level": "WARN", "service": "payments-api", "error_type": "HighLatency", "msg": "p99 latency 4.2s", "latency_ms": 4200},
+  {"ts": "2025-03-15T10:04:35Z", "level": "ERROR", "service": "payments-api", "error_type": "InternalServerError", "msg": "Payment gateway timeout", "trace_id": "pay-97"},
+  {"ts": "2025-03-15T10:04:30Z", "level": "INFO", "service": "deployer", "msg": "Deployment payments-api v2.1.0 completed", "version": "2.1.0"},
+  {"ts": "2025-03-15T10:04:25Z", "level": "ERROR", "service": "orders-api", "error_type": "InternalServerError", "msg": "External API 503", "trace_id": "ord-200"},
+  {"ts": "2025-03-15T10:04:20Z", "level": "ERROR", "service": "payments-api", "error_type": "DatabaseTimeout", "msg": "DB connection pool exhausted", "trace_id": "pay-96"},
+  {"ts": "2025-03-15T10:03:00Z", "level": "ERROR", "service": "payments-api", "error_type": "DatabaseTimeout", "msg": "DB connection pool exhausted", "trace_id": "pay-95"},
+  {"ts": "2025-03-15T10:02:00Z", "level": "INFO", "service": "payments-api", "msg": "Health check OK", "trace_id": "pay-94"},
+  {"ts": "2025-03-15T09:55:00Z", "level": "INFO", "service": "deployer", "msg": "Deployment payments-api v2.1.0 started", "version": "2.1.0"}
+]

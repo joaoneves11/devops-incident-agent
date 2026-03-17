@@ -1,0 +1,6 @@
+[
+  {"id": "d1", "service": "payments-api", "version": "2.1.0", "env": "prod", "at": "2025-03-15T09:55:00Z", "status": "success"},
+  {"id": "d2", "service": "orders-api", "version": "1.4.0", "env": "prod", "at": "2025-03-15T08:30:00Z", "status": "success"},
+  {"id": "d3", "service": "payments-api", "version": "2.0.9", "env": "prod", "at": "2025-03-15T08:00:00Z", "status": "success"},
+  {"id": "d4", "service": "payments-api", "version": "2.0.8", "env": "prod", "at": "2025-03-14T18:00:00Z", "status": "success"}
+]

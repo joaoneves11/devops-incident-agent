@@ -1,0 +1,8 @@
+[
+  {"name": "payments_api_errors_5xx", "value": 12, "unit": "count", "service": "payments-api", "ts": "2025-03-15T10:05:00Z"},
+  {"name": "payments_api_latency_p99", "value": 4.2, "unit": "s", "service": "payments-api", "ts": "2025-03-15T10:05:00Z"},
+  {"name": "orders_api_errors_5xx", "value": 2, "unit": "count", "service": "orders-api", "ts": "2025-03-15T10:05:00Z"},
+  {"name": "db_connection_pool_usage", "value": 0.98, "unit": "ratio", "ts": "2025-03-15T10:05:00Z"},
+  {"name": "db_timeout_errors", "value": 8, "unit": "count", "ts": "2025-03-15T10:05:00Z"},
+  {"name": "kafka_consumer_lag", "value": 5000, "unit": "messages", "ts": "2025-03-15T10:05:00Z"}
+]
